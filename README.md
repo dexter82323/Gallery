@@ -1,4 +1,3 @@
-# 4-laba-neo4j
 ## Структура приложения:
 ## Регистрация находится:
 - controllers/SiteController actionSignup
