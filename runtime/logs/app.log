@@ -30279,3 +30279,982 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2021-01-19 10:49:57 [127.0.0.1][-][buqb2bs835q4kg0l3eaerrj1m2q76qpe][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "files/". in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-01-19 10:49:57 [127.0.0.1][-][buqb2bs835q4kg0l3eaerrj1m2q76qpe][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'buqb2bs835q4kg0l3eaerrj1m2q76qpe'
+    '_csrf' => 'e628189ac4bb427e9436f089497b497095630aa72ebdb0af02ea4d5935347bdba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IcXLaUNRd2pOqMsfY0gL18bWQwWU1HZg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=buqb2bs835q4kg0l3eaerrj1m2q76qpe; _csrf=e628189ac4bb427e9436f089497b497095630aa72ebdb0af02ea4d5935347bdba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IcXLaUNRd2pOqMsfY0gL18bWQwWU1HZg%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51464'
+    'REDIRECT_URL' => '/gallery/web/files/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/files/'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611042597.375
+    'REQUEST_TIME' => 1611042597
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:15:49 [127.0.0.1][-][buqb2bs835q4kg0l3eaerrj1m2q76qpe][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "/". in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php:543
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2021-01-19 11:15:49 [127.0.0.1][-][buqb2bs835q4kg0l3eaerrj1m2q76qpe][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'buqb2bs835q4kg0l3eaerrj1m2q76qpe'
+    '_csrf' => 'e628189ac4bb427e9436f089497b497095630aa72ebdb0af02ea4d5935347bdba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"IcXLaUNRd2pOqMsfY0gL18bWQwWU1HZg\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=buqb2bs835q4kg0l3eaerrj1m2q76qpe; _csrf=e628189ac4bb427e9436f089497b497095630aa72ebdb0af02ea4d5935347bdba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22IcXLaUNRd2pOqMsfY0gL18bWQwWU1HZg%22%3B%7D'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51964'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web//'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044149.824
+    'REQUEST_TIME' => 1611044149
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:16:53 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'galler1y' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:710
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(710): PDO->__construct()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(631): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#14 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#15 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\GalleryController->actionGallery()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#20 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#21 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#22 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'galler1y' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:642
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#13 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\GalleryController->actionGallery()
+#15 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#20 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-01-19 11:16:53 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = [
+    'page' => '1'
+]
+
+$_POST = [
+    '_csrf' => 'D_-dxyOuL2idKUkII8iZO2UK7rnAHI1mHbKZFPIYxo02udS_e51BA6xYOGRivfFDVnC4yfJzuClF7eF7gVyvww=='
+    'Category' => [
+        'category' => ''
+    ]
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '122'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/gallery/gallery'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51973'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'REDIRECT_QUERY_STRING' => 'page=1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'page=1'
+    'REQUEST_URI' => '/gallery/web/gallery/gallery?page=1'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044213.708
+    'REQUEST_TIME' => 1611044213
+    'argv' => [
+        0 => 'page=1'
+    ]
+    'argc' => 1
+]
+2021-01-19 11:17:41 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'gallery' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:710
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(710): PDO->__construct()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(631): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#14 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#15 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\GalleryController->actionGallery()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#20 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#21 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#22 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'gallery' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:642
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#13 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\GalleryController->actionGallery()
+#15 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#20 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-01-19 11:17:41 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51972'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044261.132
+    'REQUEST_TIME' => 1611044261
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:17:51 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(407): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\GalleryController->actionGallery()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+The SQL being executed was: SELECT * FROM `picture` in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(407): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\GalleryController->actionGallery()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 3D000
+    [1] => 1046
+    [2] => No database selected
+)
+
+2021-01-19 11:17:51 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51964'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044271.89
+    'REQUEST_TIME' => 1611044271
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:18:07 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rest.picture' doesn't exist in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(407): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\GalleryController->actionGallery()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rest.picture' doesn't exist
+The SQL being executed was: SELECT * FROM `picture` in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(1165): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Command.php(407): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\Command->queryAll()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#5 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#6 [internal function]: app\controllers\GalleryController->actionGallery()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#12 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'rest.picture' doesn't exist
+)
+
+2021-01-19 11:18:07 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51971'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044287.462
+    'REQUEST_TIME' => 1611044287
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:18:38 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:710
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(710): PDO->__construct()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(631): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#14 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#15 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\GalleryController->actionGallery()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#20 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#21 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#22 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:642
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#13 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\GalleryController->actionGallery()
+#15 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#20 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-01-19 11:18:38 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '51965'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044318.541
+    'REQUEST_TIME' => 1611044318
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:18:43 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:710
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(710): PDO->__construct()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(631): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#14 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#15 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\GalleryController->actionGallery()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#20 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#21 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#22 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:642
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#13 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\GalleryController->actionGallery()
+#15 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#20 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-01-19 11:18:43 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '54953'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044323.501
+    'REQUEST_TIME' => 1611044323
+    'argv' => []
+    'argc' => 0
+]
+2021-01-19 11:19:14 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:710
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(710): PDO->__construct()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(631): yii\db\Connection->createPdoInstance()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#14 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#15 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#16 [internal function]: app\controllers\GalleryController->actionGallery()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#20 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#21 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#22 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'yii2basic' in D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php:642
+Stack trace:
+#0 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1030): yii\db\Connection->open()
+#1 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(1017): yii\db\Connection->getMasterPdo()
+#2 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\mysql\Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Schema.php(249): yii\db\mysql\Schema->createQueryBuilder()
+#9 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Connection.php(864): yii\db\Schema->getQueryBuilder()
+#10 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\Query.php(248): yii\db\ActiveQuery->createCommand()
+#12 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all()
+#13 D:\OpenServer\domains\localhost\gallery\controllers\GalleryController.php(19): yii\db\ActiveQuery->all()
+#14 [internal function]: app\controllers\GalleryController->actionGallery()
+#15 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#16 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Module.php(534): yii\base\Controller->runAction()
+#18 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction()
+#19 D:\OpenServer\domains\localhost\gallery\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest()
+#20 D:\OpenServer\domains\localhost\gallery\web\index.php(12): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-01-19 11:19:14 [127.0.0.1][-][6qj6i97g7tvvtdsrrfgrlo35n14hioa1][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => '3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN\";}'
+    'PHPSESSID' => '6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'id' => ''
+    'categoryFilter' => ''
+    'title' => ''
+    'category' => 'All'
+    'count' => '26'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.60 YaBrowser/20.12.0.963 Yowser/2.5 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/gallery/web/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en;q=0.9,la;q=0.8'
+    'HTTP_COOKIE' => '_csrf=3d5ed530c65d564e656746a8eb75faf879938d547a288ae539933d3455c30657a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229FIxX3nk1qqlAuhx3zVp2o5OX_xosDiN%22%3B%7D; PHPSESSID=6qj6i97g7tvvtdsrrfgrlo35n14hioa1'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MariaDB-10.3\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/localhost/gallery/web/index.php'
+    'REMOTE_PORT' => '54956'
+    'REDIRECT_URL' => '/gallery/web/gallery/gallery'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gallery/web/gallery/gallery'
+    'SCRIPT_NAME' => '/gallery/web/index.php'
+    'PHP_SELF' => '/gallery/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1611044354.789
+    'REQUEST_TIME' => 1611044354
+    'argv' => []
+    'argc' => 0
+]

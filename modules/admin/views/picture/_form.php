@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'category')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'category')->dropDownList(["New" => "New","Popular" => "Popular"]) ?>
 
     <?= $form->field($model, 'id_file')->textInput() ?>
 

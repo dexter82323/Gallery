@@ -24,6 +24,7 @@ class GalleryController extends Controller
             $_SESSION['id'] = "";
             $_SESSION['categoryFilter'] = "";
             $_SESSION['title']="";
+            $_SESSION['category']="";
             if ($category->category == "") {
                 $_SESSION['category'] = "All";
                 $_SESSION['count'] = $query->count();
